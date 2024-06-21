@@ -43,7 +43,7 @@ required for robots running NAOqi 2.9 or greater.
 
 ```sh
 source <catkin_ws>/devel/setup.bash
-roslaunch naoqi_driver naoqi_driver.launch nao_ip:=<ip> nao_port:=<port> roscore_ip := <ip> network_interface:=<interface> username:=<name> password:=<passwd>
+roslaunch naoqi_driver naoqi_driver.launch nao_ip:=<ip> nao_port:=<port> roscore_ip := <ip> network_interface:=<interface> user:=<name> password:=<passwd>
 ```
 
 Warning: `naoqi_driver` for melodic and greater have to be used for robots
